@@ -68,6 +68,7 @@ header {
   padding-bottom: 25px;
 }
 
+@import url(http://fonts.googleapis.com/css?family=Pirata+One);
 
 @import url(http://fonts.googleapis.com/css?family=Great+Vibes);
 
@@ -252,43 +253,52 @@ h1 {
 } 
 
 h2 {
-  color: #292929;
-  font-family: 'Georgia', serif;
-  font-style: italic;
-  font-size: 18px;
-  line-height: 22px;
+  font-family: 'pirata one', serif;
+  font-size: 86px;
+  line-height: 98px;
+        font-weight: normal;
+        text-transform: none;
+        color: #f3f3f3;
 
 } 
 
 h3 {
-  font-family: 'Inder', sans-serif;
-  line-height:28px;
-  margin-bottom:15px;
-  color:#666;
+  font-family: 'pirata one', serif;
+  font-size: 86px;
+  line-height: 98px;
+        font-weight: normal;
+        text-transform: none;
+        color: #f3f3f3;
 
 } 
  
 h4 {
-  font-family: 'Inder', sans-serif;
-  line-height:28px;
-  margin-bottom:15px;
-  color:#666;
+  font-family: 'pirata one', serif;
+  font-size: 86px;
+  line-height: 98px;
+        font-weight: normal;
+        text-transform: none;
+        color: #f3f3f3;
 
 } 
 
 h5 {
-  font-family: 'Inder', sans-serif;
-  line-height:28px;
-  margin-bottom:15px;
-  color:#666;
+  font-family: 'pirata one', serif;
+  font-size: 86px;
+  line-height: 98px;
+        font-weight: normal;
+        text-transform: none;
+        color: #f3f3f3;
 
 } 
 
 h6 {
-  font-family: 'Inder', sans-serif;
-  line-height:28px;
-  margin-bottom:15px;
-  color:#666;
+  font-family: 'pirata one', serif;
+  font-size: 86px;
+  line-height: 98px;
+        font-weight: normal;
+        text-transform: none;
+        color: #f3f3f3;
 
 } 
 
