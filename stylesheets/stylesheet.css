@@ -76,6 +76,8 @@ header {
 
 @import url(http://fonts.googleapis.com/css?family=Inder);
 
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
 
 header h1 {
   color:#ff4411;
@@ -293,9 +295,9 @@ h6 {
 } 
 
 p {
- color:#000000;
+ color:#565e5a;
   font-size:18px;
-  font-family: 'Signika', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
   padding-bottom:10px;
 }
  
