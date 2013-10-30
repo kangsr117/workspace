@@ -252,9 +252,7 @@ h1 {
 } 
 
 h2 {
-  color: #bbc3c8;
-  background: #292929;      
-  display: inline-block;
+  color: #292929;
   font-family: 'Georgia', serif;
   font-style: italic;
   font-size: 18px;
