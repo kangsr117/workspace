@@ -71,20 +71,16 @@ header {
 
 @import url(http://fonts.googleapis.com/css?family=Great+Vibes);
 
+@import url(http://fonts.googleapis.com/css?family=Signika);
 
 @import url(http://fonts.googleapis.com/css?family=Inder);
 
 
 header h1 {
-  color: #d54d7b;
-  font-family: "Great Vibes", cursive;
-  font-size: 125px;
-  line-height: 160px;
-  font-weight: normal;
-  margin-bottom: 0px;
-  margin-top:40px;
-  text-align: center;
-  text-shadow:0 1px 1px #fff;
+  color:#ff4411;
+  font-size:48px;
+  font-family: 'Signika', sans-serif;
+  padding-bottom:10px;
 }
 
 header h2 {
