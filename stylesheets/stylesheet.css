@@ -71,6 +71,10 @@ header {
 
 @import url(http://fonts.googleapis.com/css?family=Great+Vibes);
 
+
+@import url(http://fonts.googleapis.com/css?family=Inder);
+
+
 header h1 {
   color: #d54d7b;
   font-family: "Great Vibes", cursive;
@@ -281,14 +285,11 @@ h6 {
   color: #303030;
 } 
 
-@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300);
-
 p {
-  color: #006699;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 20px;
-  line-height: 22px;
-  margin: 0 0 32px;
+  font-family: 'Inder', sans-serif;
+  line-height:28px;
+  margin-bottom:15px;
+  color:#666;
 }
  
 a {
