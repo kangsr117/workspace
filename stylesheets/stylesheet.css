@@ -261,46 +261,34 @@ h2 {
 } 
 
 h3 {
-  color: #bbc3c8;
-  background: #292929;      
-  display: inline-block;
-  font-family: 'Georgia', serif;
-  font-style: italic;
-  font-size: 18px;
-  line-height: 22px;
+  font-family: 'Inder', sans-serif;
+  line-height:28px;
+  margin-bottom:15px;
+  color:#666;
 
 } 
  
 h4 {
-  color: #bbc3c8;
-  background: #292929;      
-  display: inline-block;
-  font-family: 'Georgia', serif;
-  font-style: italic;
-  font-size: 18px;
-  line-height: 22px;
+  font-family: 'Inder', sans-serif;
+  line-height:28px;
+  margin-bottom:15px;
+  color:#666;
 
 } 
 
 h5 {
-  color: #bbc3c8;
-  background: #292929;      
-  display: inline-block;
-  font-family: 'Georgia', serif;
-  font-style: italic;
-  font-size: 18px;
-  line-height: 22px;
+  font-family: 'Inder', sans-serif;
+  line-height:28px;
+  margin-bottom:15px;
+  color:#666;
 
 } 
 
 h6 {
-  color: #bbc3c8;
-  background: #292929;      
-  display: inline-block;
-  font-family: 'Georgia', serif;
-  font-style: italic;
-  font-size: 18px;
-  line-height: 22px;
+  font-family: 'Inder', sans-serif;
+  line-height:28px;
+  margin-bottom:15px;
+  color:#666;
 
 } 
 
