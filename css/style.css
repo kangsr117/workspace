@@ -1,0 +1,359 @@
+body {
+	background: yellow;
+	width: 640px;
+	height: 1136px;
+	margin: 0px;
+}
+
+.page {
+	width: 640px;
+	height: 1136px;
+	position: absolute;
+	min-height: 1136px;
+}
+
+#cover {
+	background: black;
+	top: 0px;
+	left: 0px;
+	transition: 1s;
+}
+
+#startBtn {
+	position: absolute;
+	top: 970px; 
+	left: 45px;
+	cursor: pointer;
+}
+
+#intro {
+	background: black;
+	top: 0px;
+	left: 0px;
+	transition: 1s;
+	overflow: hidden;
+}
+
+#introTitle {
+	opacity: 0;
+	position: absolute;
+	top: 450px;
+	left: 70px;
+	-webkit-animation-name: pixelwars_title;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes pixelwars_title {
+  from {
+    opacity:1;
+  }
+  to {
+    opacity:0;
+    display: none;
+  }
+}
+
+#logo {
+	position: absolute;
+	-webkit-animation-name: pixelwars_logo;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-delay: 2s;
+}
+
+@-webkit-keyframes pixelwars_logo {
+	from {
+		top: 300px;
+		left: -180px;
+		width: 1000px;
+		height: 500px;
+	}
+	to {
+		top: 400px;
+		left: 70px;
+		width: 500px;
+		height: 250px;
+	}
+}
+
+#introWrapper {
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	-webkit-transform: perspective(300px) rotateX(25deg);
+}
+
+#introScript {
+	position: absolute;
+	-webkit-perspective:5em;
+  	-webkit-perspective-origin:50% 0%;
+	-webkit-animation-name: pixelwars_script;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-delay: 5s;
+}
+
+@-webkit-keyframes pixelwars_script {
+	from {
+
+	}
+	to {
+
+	}
+}
+
+#nextBtnIntro {
+	position: absolute;
+	top: 970px;
+	left: 45px;
+	cursor: pointer;
+}
+
+#yName {
+	background: green;
+	top: 0px;
+	left: 0px;
+	transition: 1s;
+	text-align: center;
+	overflow: hidden;
+}
+
+#nextBtnName {
+	position: absolute;
+	top: 970px;
+	left: 45px;
+	cursor: pointer;
+}
+
+#inputName {
+	position: absolute;
+	left: 45px
+}
+
+#select {
+	background: black;
+	top: 0px;
+	left: 0px;
+	transition: 1s;
+}
+
+#select01 {
+	background: yellow;
+	top: 0px;
+	left: 0px;
+	transition: 1s;
+}
+
+#select02 {
+	background: red;
+	top: 0px;
+	left: 0px;
+	transition: 1s;
+}
+
+#select03 {
+	background: green;
+	top: 0px;
+	left: 0px;
+	transition: 1s;
+}
+
+#select04 {
+	background: purple;
+	top: 0px;
+	left: 0px;
+	transition: 1s;
+}
+
+#select05 {
+	background: magenta;
+	top: 0px;
+	left: 0px;
+	transition: 1s;
+}
+
+.optionWrapper {
+	width: 640px;
+	height: 800px;
+	position: absolute;
+	top: 150px;
+}
+
+.selected {
+	width: 640px;
+	height: 162px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border: 0px;
+	vertical-align: top;
+	border-image-width: 0;
+}
+
+.sOption {
+	position: relative;
+	width: 640px;
+	height: 162px;
+	top: 0px;
+	cursor: pointer;
+}
+
+.wrapper {
+	position: relative;
+	left: 40px;
+	margin-top: 20px;
+}
+
+.smallBtn {
+	display: inline;
+	cursor: pointer;
+}
+
+#loading {
+	background: cyan;
+	top: 0px;
+	left: 0px;
+	transition: 2s;
+	opacity: 1;
+}
+
+#total {
+	position: absolute;
+	width: 600px;
+	height: 600px;
+	top: 163px;
+	left: 19px;
+}
+
+#createdName {
+	position: absolute;
+	top: 777px;
+	left: 300px;
+}
+
+#creatednation {
+	position: absolute;
+	left: 300px;
+	top: 809px;
+}
+
+#createdJob {
+	position: absolute;
+	top: 900px;
+	left: 300px;
+}
+
+#createdGender {
+	position: absolute;
+	top: 839px;
+	left: 300px;
+}
+
+#createdAge {
+	position: absolute;
+	left: 300px;
+	top: 870px;
+}
+
+#arm {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 600px;
+	height: 480px;
+}
+
+#head_up {
+	position: absolute;
+	top: 0px;
+	left: 180px;
+	width: 254px;
+	height: 90px;
+}
+
+#head_under {
+	position: absolute;
+	top: 90px;
+	left: 180px;
+	width: 254px;
+	height: 90px;
+}
+
+#mom {
+	position: absolute;
+	top: 180px;
+	left: 180px;
+	width: 254px;
+	height: 300px;
+}
+
+#leg {
+	position: absolute;
+	top: 480px;
+	left: 0px;
+	width: 600px;
+	height: 120px;
+}
+
+#result {
+	background: magenta;
+	top: 0px;
+	left: 0px;
+}
+
+#bg_result {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#againBtn {
+	position: absolute;
+	top: 970px;
+	left: 45px;
+	cursor: pointer;
+}
+
+#formWrapper {
+	margin: 0px;
+	top: 265px;
+	left: 127px;
+	position: absolute;
+}
+
+#bg_name {
+	margin: 0px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+input[name="inputName"] {
+	height: 49px;
+	width: 394px;
+	background: transparent;
+	border: 0px;
+	color: white;
+	text-align: center;
+}
+
+::-webkit-input-placeholder {
+	color: blue;
+	text-align: center;
+}
+
+:-moz-input-placeholder {
+	color: blue;
+	text-align: center;
+}
+
+::-moz-input-placeholder {
+	color: blue;
+	text-align: center;
+}
+
+:-ms-input-placeholder {
+	color: blue;
+	text-align: center;
+}

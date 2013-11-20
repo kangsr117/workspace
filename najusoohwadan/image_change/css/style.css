@@ -1,0 +1,33 @@
+body {
+	background: rgb(213, 48, 134);
+}
+
+.face_under {
+    position: relative;
+    top: 0px;
+    height: 100px;
+    width: 200px;
+}
+
+.face_up {
+    height: 100px;
+    width: 200px;
+}
+
+.btn1 {
+    width: 30px;
+    height: 30px;
+    background: blue;
+}
+
+.btn2 {
+	width: 30px;
+	height: 30px;
+	background: green;
+}
+
+.btn3 {
+	width: 30px;
+	height: 30px;
+	background: black;
+}

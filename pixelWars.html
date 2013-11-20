@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<script type="text/javascript" src="./js/main.js"></script>
+		<meta http-equiv=”Content-Type” content=”text/html: charset=euc-kr”>
+	</head>
+	<body>
+		<div id="sound"></div>
+		<div id="result" class="page">
+			<img src="./images/bg_result.png" id="bg_result">
+			<div class="created" id="createdName">name</div>
+			<div class="created" id="createdAge">name</div>
+			<div class="created" id="createdGender">gender</div>
+			<div class="created" id="createdJob">job</div>
+			<div class="created" id="creatednation">nationality</div>
+			<div id="total">
+				<img src="./images/result_bg_1.png" name="imgBg">
+				<div id="arm"><img src="./images/result_arm_1.png" name="imgArm"></div>
+				<div id="head_up"><img src="./images/result_head1_1.png" name="imgHead_up"></div>
+				<div id="head_under"><img src="./images/result_head2_1.png" name="imgHead_under"></div>
+				<div id="mom"><img src="./images/result_body_1.png" name="imgMom"></div>
+				<div id="leg"><img src="./images/result_leg_1.png" name="imgLeg"></div>
+			</div>
+			<div id="againBtn"><img src="./images/btn_again.png"></div>
+		</div>
+		
+		<div id="loading" class="page"><img src="./images/loading.gif"></div>
+
+		<div id="select05" class="page">
+			<img src="./images/bg_bg.png">
+			<div class="optionWrapper">
+				<div class="sOption" onclick="selBtn5(1)"><img src="./images/color_1.png" id="s51" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected51"></div>
+				<div class="sOption" onclick="selBtn5(2)"><img src="./images/color_2.png" id="s52" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected52"></div>
+				<div class="sOption" onclick="selBtn5(3)"><img src="./images/color_3.png" id="s53" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected53"></div>
+				<div class="sOption" onclick="selBtn5(4)"><img src="./images/color_4.png" id="s54" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected54"></div>
+				<div class="sOption" onclick="selBtn5(5)"><img src="./images/color_5.png" id="s55" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected55"></div>
+				<div class="wrapper">
+					<div id="backBtnSel05" class="smallBtn"><img src="./images/btn_back_small.png"></div>
+					<div id="nextBtnSel05" class="smallBtn"><img src="./images/btn_next_small.png"></div>
+			</div>
+		</div>
+
+		<div id="select04" class="page">
+			<img src="./images/bg_leg.png">
+			<div class="optionWrapper">
+				<div class="sOption" onclick="selBtn4(1)"><img src="./images/leg_1.png" id="s41" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected41"></div>
+				<div class="sOption" onclick="selBtn4(2)"><img src="./images/leg_2.png" id="s42" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected42"></div>
+				<div class="sOption" onclick="selBtn4(3)"><img src="./images/leg_3.png" id="s43" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected43"></div>
+				<div class="sOption" onclick="selBtn4(4)"><img src="./images/leg_4.png" id="s44" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected44"></div>
+				<div class="sOption" onclick="selBtn4(5)"><img src="./images/leg_5.png" id="s45" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected45"></div>
+				<div class="wrapper">
+					<div id="backBtnSel04" class="smallBtn"><img src="./images/btn_back_small.png"></div>
+					<div id="nextBtnSel04" class="smallBtn"><img src="./images/btn_next_small.png"></div>
+				</div>
+			</div>
+		</div>
+
+		<div id="select03" class="page">
+			<img src="./images/bg_arm.png">
+			<div class="optionWrapper">
+				<div class="sOption" onclick="selBtn3(1)"><img src="./images/arm_1.png" id="s31" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected31"></div>
+				<div class="sOption" onclick="selBtn3(2)"><img src="./images/arm_2.png" id="s32" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected32"></div>
+				<div class="sOption" onclick="selBtn3(3)"><img src="./images/arm_3.png" id="s33" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected33"></div>
+				<div class="sOption" onclick="selBtn3(4)"><img src="./images/arm_4.png" id="s34" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected34"></div>
+				<div class="sOption" onclick="selBtn3(5)"><img src="./images/arm_5.png" id="s35" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected35"></div>
+				<div class="wrapper">
+					<div id="backBtnSel03" class="smallBtn"><img src="./images/btn_back_small.png"></div>
+					<div id="nextBtnSel03" class="smallBtn"><img src="./images/btn_next_small.png"></div>
+				</div>
+			</div>
+		</div>
+
+		<div id="select02" class="page">
+			<img src="./images/bg_body.png">
+			<div class="optionWrapper">
+				<div class="sOption" onclick="selBtn2(1)"><img src="./images/body_1.png" id="s21" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected21"></div>
+				<div class="sOption" onclick="selBtn2(2)"><img src="./images/body_2.png" id="s22" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected22"></div>
+				<div class="sOption" onclick="selBtn2(3)"><img src="./images/body_3.png" id="s23" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected23"></div>
+				<div class="sOption" onclick="selBtn2(4)"><img src="./images/body_4.png" id="s24" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected24"></div>
+				<div class="sOption" onclick="selBtn2(5)"><img src="./images/body_5.png" id="s25" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected25"></div>
+				<div class="wrapper">
+					<div id="backBtnSel02" class="smallBtn"><img src="./images/btn_back_small.png"></div>
+					<div id="nextBtnSel02" class="smallBtn"><img src="./images/btn_next_small.png"></div>
+				</div>
+			</div>
+		</div>
+
+		<div id="select01" class="page">
+			<img src="./images/bg_head2.png">
+			<div class="optionWrapper">
+				<div class="sOption" onclick="selBtn1(1)"><img src="./images/head2_1.png" id="s11" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected11"></div>
+				<div class="sOption" onclick="selBtn1(2)"><img src="./images/head2_2.png" id="s12" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected12"></div>
+				<div class="sOption" onclick="selBtn1(3)"><img src="./images/head2_3.png" id="s13" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected13"></div>
+				<div class="sOption" onclick="selBtn1(4)"><img src="./images/head2_4.png" id="s14" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected14"></div>
+				<div class="sOption" onclick="selBtn1(5)"><img src="./images/head2_5.png" id="s15" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected15"></div>
+				<div class="wrapper">
+					<div id="backBtnSel01" class="smallBtn"><img src="./images/btn_back_small.png"></div>
+					<div id="nextBtnSel01" class="smallBtn"><img src="./images/btn_next_small.png"></div>
+				</div>
+			</div>
+		</div>
+
+		<div id="select" class="page">
+			<img src="./images/bg_head1.png">
+			<div class="optionWrapper">
+				<div class="sOption" onclick="selBtn(1)"><img src="./images/head1_1.png" id="s01" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected01"></div>
+				<div class="sOption" onclick="selBtn(2)"><img src="./images/head1_2.png" id="s02" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected02"></div>
+				<div class="sOption" onclick="selBtn(3)"><img src="./images/head1_3.png" id="s03" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected03"></div>
+				<div class="sOption" onclick="selBtn(4)"><img src="./images/head1_4.png" id="s04" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected04"></div>
+				<div class="sOption" onclick="selBtn(5)"><img src="./images/head1_5.png" id="s05" border="0" style="vertical-align:top;"/><img src="./images/bg_select_t.png"class="selected" id="selected05"></div>
+				<div class="wrapper">
+					<div id="backBtnSel" class="smallBtn"><img src="./images/btn_back_small.png"></div>
+					<div id="nextBtnSel" class="smallBtn"><img src="./images/btn_next_small.png"></div>
+				</div>
+			</div>
+		</div>
+
+		<div id="yName" class="page">
+			<img src="./images/bg_name.png" id="bg_name">
+			<div id="formWrapper">
+				<form name="formName">
+					<input name="inputName" type="text" placeholder="2글자이상" value="">
+				</form>
+			</div>
+			<div id="nextBtnName"><img src="./images/btn_next.png"></div>
+		</div>
+
+		<div id="intro" class="page">
+			<img src="./images/bg_intro2.png">
+			<img id="introTitle" src="./images/bg_intro_title.png">
+			<img id="logo" src="./images/bg_intro_logo.png">
+			<div id="introWrapper">
+				<img id="introScript" src="./images/bg_intro_script.png">
+			</div>
+			<div id="nextBtnIntro"><img src="./images/btn_next.png"></div>
+		</div>
+		
+		<div id="cover" class="page">
+			<img src="./images/bg_intro.png">
+			<div id="startBtn"><img src="./images/btn_start.png"></div>
+		</div>
+		
+	</body>
+</html>

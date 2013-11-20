@@ -1,0 +1,7 @@
+.default {
+	background: yellow;
+}
+
+.clicked {
+	background: green;
+}
